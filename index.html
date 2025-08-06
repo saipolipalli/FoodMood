@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FoodMood 🍽️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>HEYY!!! FOODIES!</h1>
+    <h1>FoodMood 🍽️</h1>
+    <p>Select your mood to get a dish suggestion!</p>
+
+    <div class="mood-selector">
+      <button onclick="getRecipe('happy')">😊 Happy</button>
+  <button onclick="getRecipe('sad')">😢 Sad</button>
+  <button onclick="getRecipe('stressed')">😤 Stressed</button>
+  <button onclick="getRecipe('bored')">😐 Bored</button>
+  <button onclick="getRecipe('romantic')">😍 Romantic</button>
+  <button onclick="getRecipe('celebrating')">🥳 Celebrating</button>
+  <button onclick="getRecipe('tired')">😴 Tired</button>
+  <button onclick="getRecipe('sick')">🤒 Sick</button>
+    </div>
+
+    <div class="result" id="result">
+      <h2>Your dish will appear here!</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
